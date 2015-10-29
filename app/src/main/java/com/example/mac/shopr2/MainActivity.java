@@ -36,6 +36,7 @@ public class MainActivity extends Activity
         super.onCreate(savedInstanceState);
         //Instantiate DBCOntroller.
         dbController = DbController.getI(this);
+
         setContentView(R.layout.activity_main);
 
         mNavigationDrawerFragment = (NavigationDrawerFragment)
