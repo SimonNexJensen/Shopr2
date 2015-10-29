@@ -59,8 +59,8 @@ public class DbController implements IDbController {
 
     }
     @Override
-    public void testDB(){
-       fireBase.child("message").setValue("Do you have data? You'll love Firebase.");
+    public void testDB(String testString){
+       fireBase.child("testMessage").setValue(testString);
     }
 
 

@@ -9,5 +9,5 @@ public interface IDbController {
    ShopList newShopList(String name);
     void setActiveShopList(ShopList shopList);
 
-    void testDB();
+    void testDB(String testString);
 }
